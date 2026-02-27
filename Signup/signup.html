@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        input {
+        padding: 8px;
+        width: 260px;
+        margin-bottom: 4px;
+        }
+        .error {
+        color: red;
+        margin: 0;
+        }
+        .ok {
+        color: green;
+        margin: 0;
+        }
+        .field {
+        margin-bottom: 12px;
+        }
+</style>
+</head>
+<body>
+    <form action="" id="signupForm">
+     <div class="field">
+        <label for="name">Name</label><br>
+        <input type="text" id="name" placeholder="Your Name"><br>
+        <p id="nameError" class="error"></p>
+     </div>
+     <div class="field">
+        <label for="email">Email</label><br>
+        <input type="email" id="email" placeholder="Your Email"><br>
+        <p id="emailError" class="error"></p>
+     </div>
+     <div class="field">
+        <label for="password">Password</label><br>
+        <input type="text" id="password" placeholder="Your Password"><br>
+        <p id="passwordError" class="error"></p>
+     </div>
+     <div class="field">
+        <label for="confirmPassword">Confirm Password</label><br>
+        <input type="text" id="confirmPassword" placeholder="Confirm Password"><br>
+        <p id="confirmPasswordError" class="error"></p>
+     </div>
+     <div>
+        <p><button id="submit" type="submit">Sign Up</button></p>
+     </div>
+    
+        <p id="result">result</p>
+    </form>
+</body>
+</html>
